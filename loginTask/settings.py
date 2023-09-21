@@ -25,6 +25,7 @@ SECRET_KEY = 'django-insecure-_vn%bn*zjpn)j50h@xt6_kh=thv4%p9zh@!4ux2=+ughak7oq7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+
 ALLOWED_HOSTS = []
 
 
@@ -123,8 +124,3 @@ LOGIN_URL = '/account/login'
 LOGIN_REDIRECT_URL = '/tasks'
 LOGOUT_REDIRECT_URL = '/account/login'
 
-# import local settings
-try:
-    from local_settings import *
-except ImportError:
-    pass
